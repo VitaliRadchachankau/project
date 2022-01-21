@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Mont';
+    src: url('../fonts/Mont-Regular.woff') format('woff'),
+        url('../fonts/Mont-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url('../fonts/Mont-Bold.woff') format('woff'),
+        url('../fonts/Mont-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Mont', sans-serif;
+    font-size: 1rem;
+    line-height: 1.37;
+}
+
+*,
+*:before,
+:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* page */
+.page {
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    position: relative;
+}
+
+/* header */
+header {
+padding: 1rem 0;
+
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.header-iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
+}
+.header-iner img {
+    display: block;
+}
+.header-logo {
+    background-color: ;
+}
+.header-nav-link {
+    margin-left: 1.5rem;
+    color: #191B1D;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+.header-nav-link:hover {
+    color: #444A51;
+}
+.nav {
+     display: flex;
+}
+.header-nav-link.active {
+    position: relative;
+}
+.header-nav-link.active:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #191B1D;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+/*content*/
+
+
+.title {
+    font-size: 4rem;
+    font-family: mont;
+    font-weight: 500;
+    color: #191B1D;
+    line-height: 1.1;
+    margin-bottom: 10px;
+
+}
+
+.text {
+    color: #191B1D;
+    font-size: 1rem;
+    line-height: 1.37;
+    width: 507px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    line-height: 1.1;
+    display: inline-block;
+    font-size: 1rem;
+    color: #191B1D;
+    font-weight: 500;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 11px 35px;
+    border: 1px #191B1D solid;
+}
+.btn:hover {
+    background-color: #191B1D;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+.elipse {
+position: absolute;
+    bottom: 100px;
+    right: 300px;
+}
+.elipse_2 {
+    position: absolute;
+    bottom: 100px;
+    right: 500px;
+}
+
+
+.footer {
+
+}
+
+
+
+/* grid*/
+.grid-item {
+border: 1px solid;
+}
+.grid {
+padding: 5px 5px;
+background-color: #fff;
+border: 1px solid black;
+text-align: center;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 45px;
+    left: O;
+}
+.contacts {
+    display: flex;
+}
+
+.contacts-link {
+    margin-right: 2rem;
+    color: #191B1D;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contacts-link:last-child
+{
+   margin-right: 0;
+}
+
+.contacts-link:hover {
+text-decoration: underline;
+}
